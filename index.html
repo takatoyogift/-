@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>卒業おめでとう</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="poster">
+        一年間ありがとう😢<br>
+        とても楽しい一年になりました！
+    </div>
+
+    <p class="intro">
+        よかったらクイズに挑戦してみてね！
+    </p>
+
+    <div class="quiz" id="quiz1">
+        <p>Q1. 三年一組で歌った合唱コンクールの曲は？</p>
+        <button onclick="correct()">心の瞳</button>
+        <button onclick="wrong()">青い鳥</button>
+        <button onclick="wrong()">翼をください</button>
+    </div>
+
+    <div class="quiz" id="quiz2" style="display:none;">
+    <p>Q2. 最高で尊いものは？</p>
+
+    <button onclick="lunch()">給食</button>
+    <button onclick="cleaning()">掃除</button>
+    <button onclick="correct2()">三年一組の仲間たち</button>
+
+    <br><br>
+    <button onclick="backToQ1()">← 前の問題へ</button>
+</div>
+
+    <div class="message">
+        QRコードを読み取ってくれてありがとう😜
+    </div>
+
+</div>
+
+<div id="resultMessage" class="result"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
